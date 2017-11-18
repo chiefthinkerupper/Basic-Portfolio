@@ -26,6 +26,10 @@ p {
   margin-bottom: 20px;
 }
 
+p+p {
+    text-indent: 50px;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -156,6 +160,16 @@ h3,
   border: 1px solid #ddd;
 }
 
+.firstcharacter {
+  color: #4aaaa5;
+  float: left;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
 /* portfolio page */
 
 .work {
