@@ -54,6 +54,11 @@ h3 {
   font-size: 22px;
 }
 
+a:hover {
+  cursor: crosshair;
+  color: #4aaaa5;
+  text-transform: uppercase;
+}
 /* header */
 
 #header {
